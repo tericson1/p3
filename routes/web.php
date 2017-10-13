@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+    //return view('welcome');
+//});
+
+Route:: get ('/', 'BillController@index');
+Route:: get ('/calculate', 'BillController@calculate');
