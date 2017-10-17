@@ -2,6 +2,7 @@
 
 return [
 
+'supportEmail' => 'support@p3.tracyerxn.me',
     /*
     |--------------------------------------------------------------------------
     | Mail Driver
