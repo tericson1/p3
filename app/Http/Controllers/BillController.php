@@ -8,9 +8,15 @@ class BillController extends Controller
 {
     public function index ()
 
-    {return 'Show form bill splitter';
+    {return view ('layouts.master');
     }
 
+
+
+        public function calc ()
+
+        {return view ('calc');
+        }
 
 
     public function calculate()

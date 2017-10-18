@@ -17,6 +17,18 @@
 
 Route::get ('/practice/{n?}', 'PracticeController@index');
 
+Route::get('/debugbar', function () {
+
+    $data = ['foo' => 'bar'];
+    Debugbar::info($data);
+    Debugbar::info('Current environment: '.App::environment());
+    Debugbar::error('Error!');
+    Debugbar::warning('Watch out…');
+    Debugbar::addMessage('Another message', 'mylabel');
+
+    return 'Just demoing some of the features of Debugbar';
+});
+
 Route::get('/env', function () {
     dump(config('app.name'));
     dump(config('app.env'));
@@ -25,4 +37,5 @@ Route::get('/env', function () {
 });
 
 Route:: get ('/', 'BillController@index');
+Route:: get ('/calc', 'BillController@calc');
 Route:: get ('/calculate', 'BillController@calculate');
