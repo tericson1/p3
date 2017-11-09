@@ -1,19 +1,37 @@
+header {
+    text-align:center;
+    margin-top:20px;
+    color:#3c763d;
+}
+
 
 label{
   display: block;
   float: left;
   width : 120px;
+  color:#3c763d;
 }
 form {
   width: 300px;
 margin: 0 auto;
+color:#3c763d;
  }
 h1 {    text-align: center;
-font-family: "Tahoma"
+font-family: "Tahoma";
+color:#3c763d !Important;
 }
 
 img {
     display: block;
     margin: auto;
     width: 80%;
+}
+ul {    text-align:center;
+    color:#3c763d;
+
+
+}
+
+.errs {
+color:#3c763d;
 }
