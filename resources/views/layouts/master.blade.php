@@ -3,6 +3,7 @@
 <head>
 	<title>
         @yield( 'Bill Calculator Tool')
+				Bill Calculator
     </title>
 
 	<meta charset='utf-8'>

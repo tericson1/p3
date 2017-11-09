@@ -7,6 +7,7 @@
 @endpush
 
 @section('content')
+@php ($test = 'test');
 
 <form method='GET' action='/nums'>
 
@@ -55,7 +56,10 @@
           @endforeach
       </ul>
   @endif
+
+  <p>The total per person is:  </p> 
 </form>
+
 
 
 

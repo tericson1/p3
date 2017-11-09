@@ -9,7 +9,7 @@ label{
   display: block;
   float: left;
   width : 120px;
-  color:#3c763d;
+
 }
 form {
   width: 300px;
@@ -27,7 +27,7 @@ img {
     width: 80%;
 }
 ul {    text-align:center;
-    color:#3c763d;
+    color:red;
 
 
 }
