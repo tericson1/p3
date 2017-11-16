@@ -19,7 +19,7 @@ class BillController extends Controller
     }
 
     public function calcs(Request $request)
-    {dump($request->all());
+    {
 
 
       $this->validate($request, [

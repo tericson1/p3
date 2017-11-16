@@ -47,7 +47,8 @@
 
   <input type = 'submit' class = 'btn btn-primary btn-small' value = 'Calculate'>
   <div>
-
+    <p> tippy {{$tip}}</p>
+<p>The total per person is: {{ old('$amount')}} </p>
   </div>
   @if(count($errors) > 0)
       <ul>
@@ -57,7 +58,7 @@
       </ul>
   @endif
 
-  <p>The total per person is:  </p> 
+
 </form>
 
 
